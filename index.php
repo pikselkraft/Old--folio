@@ -17,7 +17,7 @@ else {
         
         <meta name="author" content="Derek Salmon " /> 
         <meta name="publisher" content="Derek Salmon">
-        <meta name="category" content="developpeur web, webdesign, création de site web, infographie, social management, communicaiton">
+        <meta name="category" content="developpeur web, webdesign, cr&eacute;ation de site web, emarketing, infographie, social management, communicaiton">
         
         <link rel="icon" type="image/png" href="images/wtod-16x16.png" sizes="16x16" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
@@ -25,10 +25,10 @@ else {
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
-		<script src="js/jquery.min.js" asynch></script>
-		<script src="js/skel.min.js" asynch></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
 
-		<script src="js/init.js" defer></script>
+		<script src="js/init.js" defer></script> 
 		<script src="js/jquery.poptrox.min.js" defer></script>
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js" defer></script><![endif]-->
 	</head>
