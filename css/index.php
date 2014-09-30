@@ -1,16 +1,5 @@
-<?php if(isset($_GET['send'])) 
-{
-	if ($_GET['send']==1) {
-		$mailSucess="<h4>Votre message a été envoy&eacute;, je vais y r&eacute;pondre au plus vite<h4><hr>"; 
-	}
-	elseif($_GET['send']==2)
-	{
-		$mailSucess="<h4>Vous avez remplis un input caché dans le formulaire, vous êtes soit un robot soit un développeur, dans le dernier cas BONJOUR :) (le mail n'a pas été envoyé)<h4><hr>"; 
-	}
-		elseif($_GET['send']==3)
-	{
-		$mailSucess="<h4>Erreur dans la réponse du captcha, vous pouvez essayer à nouveau (le mail n'a pas été envoyé)<h4><hr>"; 
-	}
+<?php if(isset($_GET['send'])) {
+	$mailSucess="<h4>Votre message a été envoy&eacute;, je vais y r&eacute;pondre au plus vite<h4><hr>"; 
 }
 else {
 	$mailSucess=""; 
@@ -44,16 +33,6 @@ else {
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js" defer></script><![endif]-->
 	</head>
 	<body>
-		<!-- Google Tag Manager -->
-		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TGMMRP"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-TGMMRP');</script>
-		<!-- End Google Tag Manager -->
-
 
 		<!-- Header -->
 			<header id="header">
@@ -150,16 +129,12 @@ else {
 							<form method="post" action="contact.php">
 								<div class="row half">
 									<div class="6u m-hidden"><label class="m-hidden">Bot</label><input type="text" name="bot" placeholder="bot" class="m-hidden"/></div>
-
 									<div class="6u"><label class="m-hidden">Nom</label><input type="text" name="name" placeholder="Nom"  title="Renseignez votre nom" required/></div>
 									<div class="6u"><label class="m-hidden">Email</label><input type="text" name="email" placeholder="Email" title="Renseignez votre prénom" required /></div>
 								</div>
 								<div class="row half">
 									<div class="12u"><label class="m-hidden">Message</label><textarea name="message" placeholder="Message" rows="6" title="Renseigner votre message"></textarea></div>
-								</div>
-								<div class="row half">
-									<div class="12u"><label>Captcha : Combien il y a de lettres dans HTML </label><input type="number" name="answer" placeholder="Votre réponse"></input></div>
-								</div>
+								</div> 
 								<div class="row">
 									<div class="12u">
 										<ul class="actions">
