@@ -18,19 +18,27 @@ else {
 ?>
 
 <!DOCTYPE HTML>
-<html>
+<html prefix="og: http://ogp.me/ns#">
 
 	<head>
-		<title>Derek Salmon | D&eacute;veloppeur Web & Communication Digitale</title>
+		<title>Derek Salmon Développeur Web & Communication Digitale</title>
 		<meta charset="UTF-8">
-		<meta name="description" content="Derek Salmon: Communcation Digitale & Développement Web - Strasbourg - Freelance. Contactez moi pour vos projets numériques (site web, social management)." />
-        <meta name="keywords" content="community management, communicaiton, webmarketing, developpeur web,intégrateur web, auto-entrepreneur, freelance, webdesigner, graphiste, wordpress, PHP, javascript, html, css, " />
+		<meta name="description" content="Derek Salmon, Communication Digitale & Développement Web à Strasbourg - Freelance. Contactez moi pour vos projets numériques (site web, SEO&SMO)." />
         
-        <meta name="author" content="Derek Salmon " /> 
-        <meta name="publisher" content="Derek Salmon">
-        <meta name="category" content="developpeur web, webdesign, emarketing, infographie, social management, communicaiton">
-        
-        <link rel="icon" type="image/png" href="images/wtod-16x16.png" sizes="16x16" />
+    <meta name="keywords" content="développeur web strasbourg, referencement Strasbourg, community management Strasbourg, communication Strasbourg, webmarketing Strasbourg, developpeur web Strasbourg, creation de site internet Strasbourg, intégrateur web Strasbourg, auto-entrepreneur Strasbourg, freelance Strasbourg" />
+    <meta name="author" content="Derek Salmon " /> 
+    <meta name="publisher" content="Derek Salmon">
+    <meta name="category" content="developpeur web Strasbourg, creation de site internet Strasbourg, creation de site web Strasbourg, referencement Strasbourg, seo Strasbourg, emarketing Strasbourg, social management Strasbourg, réseaux sociaux Strasbourg, communication Strasbourg">
+    
+    <link rel="icon" type="image/png" href="images/wtod-16x16.png" sizes="16x16" />
+
+    <meta property="og:locale" content="fr_FR" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Derek Salmon, Communication Digitale et Developpement Web à Strasbourg" />
+		<meta property="og:description" content="Derek Salmon, Communication Digitale & Developpement Web | Strasbourg - Freelance. Contactez moi pour vos projets web (site web, SEO&SMO)." />
+		<meta property="og:url" content="http://www.derek-salmon.me/" />
+		<meta property="og:image" content="http://www.derek-salmon.me/images/graphisme.jpg" />
+		<meta property="og:site_name" content="Derek Salmon Développeur Web & Communication Digitale" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
@@ -38,23 +46,16 @@ else {
 		</noscript>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/skel.min.js"></script>
+		
+		<script src="https://apis.google.com/js/platform.js" async defer>
+		  {lang: 'fr'}
+		</script>
 
 		<script src="js/init.js" defer></script> 
 		<script src="js/jquery.poptrox.min.js" defer></script>
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js" defer></script><![endif]-->
 	</head>
 	<body>
-		<!-- Google Tag Manager -->
-		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TGMMRP"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-TGMMRP');</script>
-		<!-- End Google Tag Manager -->
-
-
 		<!-- Header -->
 			<header id="header">
 
@@ -64,8 +65,8 @@ else {
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro">Accueil</a></li>
-							<li><a href="#one">Mes services</a></li>
 							<li><a href="#two">Pr&eacute;sentation</a></li>
+							<li><a href="#one">Mes services</a></li>
 							<li><a href="#work">Mes r&eacute;alisations</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
@@ -89,18 +90,6 @@ else {
 			</section>
 		
 		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Mes services</h2>
-					</header>
-					<p>Retranscrire vos id&eacute;es, avec le code et la programmation, en images et interactions.</p>
-					<p>Mon objectif est de cr&eacute;er des sites web facilitant l'exp&eacute;rience utilisateur aussi bien sur smartphones, tablettes et ordinateurs.</p>
-				</div>
-				<a href="#two" class="button style2 down anchored">Next</a>
-			</section>
-		
-		<!-- Two -->
 			<section id="two" class="main style2 left dark fullscreen">
 				<div class="content box style2">
 					<header>
@@ -110,6 +99,23 @@ else {
 					<p>Je poursuis mes études en master, toujours en alternance, dans le domaine de la communicaiton digitale.</p>
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+		
+		<!-- Two -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Mes services</h2>
+					</header>
+					<p>Retranscrire vos id&eacute;es, grâce au développement d'applications web interactives et graphiques.</p>
+					<p>Mon objectif est de cr&eacute;er des sites web facilitant l'exp&eacute;rience utilisateur aussi bien sur smartphones, tablettes et ordinateurs.</p>
+					<ul>Compétences
+						<li>| Audit de site web</li>
+						<li>| Développement de site vitrine responsive</li>
+						<li>| Référencement, communicaiton digitale & Emarketing</li>
+					</ul>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
 			
 		<!-- Work -->
@@ -127,12 +133,12 @@ else {
 					-->
 						<div class="container small gallery"> 
 							<div class="row flush images">
-								<div class="6u"><a href="images/fulls/Catalogue-LifeisaGame.jpg" class="image full r"><img src="images/thumbs/Catalogue-LifeisaGame.jpg" title="Social networking pour Life is a Game autour des nouveaux visuels" alt="Life is a Game logo" height="595" width="595" /></a></div> 
-								<div class="6u"><a href="images/fulls/LIfeisaGame-logodark.jpg" class="image full l"><img src="images/thumbs/LIfeisaGame-logodark.jpg" title="Community Management pour Life is a Game" alt="Life is a Game catalogue" height="595" width="595" /></a></div>
-								<div class="6u"><a href="images/fulls/Tutorial-Jquery.png" class="image full l"><img src="images/thumbs/Tutorial-Jquery.png" title="Site de démonstration de <a href='http://wtod.github.io/Jquery-Pure-Fun/' target=_blank>Jquery et Pure Css</a>" alt="D&eacute;monstration de Jquey" height="595" width="595" /></a></div>
-								<div class="6u"><a href="images/fulls/projet-kolb.jpg" class="image full l"><img src="images/thumbs/projet-kolb.jpg" title="Questionnaire de m&eacute;thode d'apprentissage: m&eacute;thode kolb" alt="Questionnaire int&eacute;ractif Kolb" height="595" width="595" /></a></div>
-								<div class="6u"><a href="images/fulls/Urban-adhesif.jpg" class="image full l"><img src="images/thumbs/Urban-adhesif.jpg" title="Adh&eacute;sif, banderole pour la patisserie Urban &agrave; Obernai" alt="Adh&eacute;sif pour la p&acirc;tisserie Urban &agrave; Obernai" height="595" width="595" /></a></div>
-								<div class="6u"><a href="images/fulls/Apero-autocollant.jpg" class="image full l"><img src="images/thumbs/Apero-autocollant.jpg" title="R&eacute;alisation d'autocollant pour l'associaiton ap&eacute;ro d'Obernai"  alt="Autocollant pour l'association Ap&eacute;ro" height="595" width="595" /></a></div>
+								<div class="6u"><a href="images/fulls/Catalogue-LifeisaGame.jpg" class="image full r"><img src="images/thumbs/Catalogue-LifeisaGame.jpg" title="Social networking pour Life is a Game autour des nouveaux visuels" alt="Life is a Game logo" /></a></div> 
+								<div class="6u"><a href="images/fulls/LIfeisaGame-logodark.jpg" class="image full l"><img src="images/thumbs/LIfeisaGame-logodark.jpg" title="Community Management pour Life is a Game" alt="Life is a Game catalogue" /></a></div>
+								<div class="6u"><a href="images/fulls/Tutorial-Jquery.png" class="image full l"><img src="images/thumbs/Tutorial-Jquery.png" title="Site de démonstration de <a href='http://wtod.github.io/Jquery-Pure-Fun/' target=_blank>Jquery et Pure Css</a>" alt="D&eacute;monstration de Jquey" /></a></div>
+								<div class="6u"><a href="images/fulls/projet-kolb.jpg" class="image full l"><img src="images/thumbs/projet-kolb.jpg" title="Questionnaire de m&eacute;thode d'apprentissage: m&eacute;thode kolb" alt="Questionnaire int&eacute;ractif Kolb" /></a></div>
+								<div class="6u"><a href="images/fulls/Urban-adhesif.jpg" class="image full l"><img src="images/thumbs/Urban-adhesif.jpg" title="Adh&eacute;sif, banderole pour la patisserie Urban &agrave; Obernai" alt="Adh&eacute;sif pour la p&acirc;tisserie Urban &agrave; Obernai" /></a></div>
+								<div class="6u"><a href="images/fulls/Apero-autocollant.jpg" class="image full l"><img src="images/thumbs/Apero-autocollant.jpg" title="R&eacute;alisation d'autocollant pour l'associaiton ap&eacute;ro d'Obernai"  alt="Autocollant pour l'association Ap&eacute;ro" /></a></div>
 							</div>
 						</div>
 				</div>
@@ -181,7 +187,6 @@ else {
 						<li><a href="https://plus.google.com/+derekSALMON/" class="fa solo fa-google-plus" target=_blank ><span>Google+</span></a></li>
 						<li><a href="https://github.com/wtod" class="fa solo fa-github" target=_blank><span>Github</span></a></li>
 						<li><a href="https://www.linkedin.com/in/dereksalmon" class="fa solo fa-linkedin" target=_blank><span>Linkedin</span></a></li>
-
 					</ul>
 				<!-- Menu -->
 					<ul class="menu">

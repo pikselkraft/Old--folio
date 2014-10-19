@@ -17,7 +17,6 @@ $destinataire = secInput($_POST['email']);
 $name         = secInput($_POST['name']);
 $message      = secInput($_POST['message']);
 
-
 if($_POST['bot'] != '')
 {
 	header('Location:index.php?send=2');
@@ -42,5 +41,4 @@ else
 		header('Location:index.php?send=1');
 	}
 }
-
 ?>
