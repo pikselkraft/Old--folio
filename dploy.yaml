@@ -1,0 +1,33 @@
+dev:
+    scheme: ftp
+    host: ftp.my-dev-server.com
+    port: 21
+    user: user
+    pass: password
+    check: true
+    path:
+        local: release/
+        remote: public_html/
+
+prod:
+    scheme: sftp
+    host: sftp.dc0.gpaas.net
+    port: 22
+    user: 1712796
+    pass: #K@t*XRF3M44BjDB78HDP8V%kKjuwn
+    check: true
+    path:
+        local: PERSO__folio/
+        remote: vhosts/www.derek-salmon.me/htdocs/
+    exclude: ["PERSO__folio/*.yaml"]
+
+live:
+    scheme: ftp
+    host: ftp.my-live-server.com
+    port: 21
+    user: user
+    pass: password
+    check: true
+    path:
+        local: release/
+        remote: public_html/
