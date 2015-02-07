@@ -123,7 +123,7 @@ else {
 						<li>| Référencement, communication digitale & Emarketing</li>
 					</ul>
 
-					<h4 class="link__dark--underline">Plus de détails sur mes <a href="services.php">Mes Services</a></h4>
+					<h4 class="link__dark--underline">Plus de détails sur <a href="services.php">Mes Services</a></h4>
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
 			</section>
