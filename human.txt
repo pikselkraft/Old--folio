@@ -1,0 +1,29 @@
+
+                            
+/* TEAM */
+
+                            
+Your title: Derek SALMON
+
+                            
+Site: www.derek-salmon.me
+
+                            
+Twitter: @dereksalmon_fr
+
+                            
+Location: Strasbourg
+
+
+
+                            
+/* SITE */
+      
+                            
+Standards: HTML5, CSS3/Sass, SkelJs
+
+                            
+Components: Modernizr, jQuery
+
+                            
+Software: Sublime Text 3
